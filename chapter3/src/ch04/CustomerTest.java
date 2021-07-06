@@ -15,6 +15,9 @@ public class CustomerTest {
 		System.out.println(customerKim.showCustomerInfo() + price);
 		
 		Customer vc = new VIPCustomer(12345, "noName");
+		vc.calcPrice(1000);
+		System.out.println(vc.calcPrice(1000));
+		
 		
 	}
 
